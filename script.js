@@ -1,5 +1,4 @@
 window.onload = () => {
-  console.log('page is fully loaded');
   const toggler = document.querySelector('.nav-toggler');
   const nav = document.querySelector('nav ul');
   const togglerImg = document.querySelector('.nav-toggler img');
