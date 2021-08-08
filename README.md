@@ -21,19 +21,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./ScreenShot.png)
+![Desktop View](./screenshots/desktop.png?raw=true "Desktop View")
+![Mobile View](./screenshots/mobile.png?raw=true "Mobile View")
+![Mobile Menu View](./screenshots/mobile-menu.png?raw=true "Mobile Menu View")
 
 ### Links
 
 - Solution URL: [Github](https://github.com/fasih-mehmood/project-tracking-intro-component)
-- Live Site URL: [Github](https://fasih-mehmood.github.io/project-tracking-intro-component/)
+- Live Site URL: [Github](https://fasih-mehmood.github.io/project-tracking-intro-component)
 
 ## My process
 
 I coded the skeleton of the page in HTML.
 Then I set the layout of the page followed by styling all the components in CSS.
 The CSS was written using a mobile-first approach.
-Then I wrote javascript to make the hamburger functional and added a fade transition.
+After that I wrote javascript to make the hamburger functional and added a fade transition.
 
 ### Built with
 
