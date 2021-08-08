@@ -21,7 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
+### Desktop View
 ![Desktop View](./screenshots/desktop.png?raw=true "Desktop View")
+### Mobile View
 ![Mobile View](./screenshots/mobile.png?raw=true "Mobile View")
 ![Mobile Menu View](./screenshots/mobile-menu.png?raw=true "Mobile Menu View")
 
