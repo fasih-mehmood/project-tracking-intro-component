@@ -42,6 +42,7 @@
 body {
   font-size: 18px;
   font-family: 'Barlow', sans-serif;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -207,6 +208,8 @@ nav a:active {
 
 .hero-section {
   margin-top: 10%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .right-side {
@@ -282,17 +285,18 @@ button:hover {
 }
 
 /* Background div */
-.bg-div {
-  position: relative;
-}
 
-.bg-div div {
+.bg-div {
   z-index: -99;
-  width: 1000px;
-  height: 1000px;
+  width: 50%;
+  /* height: 1000px; */
+  height: 70vh;
   position: absolute;
-  transform: translate(50vw, calc(-87vh + 40vw));
-  border-radius: 50px;
+  top: -10%;
+  right: 0;
+  /* transform: translate(50vw, calc(-87vh + 40vw)); */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 /* Attributes */
@@ -368,8 +372,9 @@ button:hover {
     min-height: 0;
   }
 
-  .bg-div div {
-    transform: translate(50vw, -57.5vh);
+  .bg-div {
+    /* transform: translate(50vw, -57.5vh); */
+    height: 65vh;
   }
 
   .nav-toggler {
