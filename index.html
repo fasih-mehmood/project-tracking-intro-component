@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Project tracking intro component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  Product
-  Features
-  Pricing
-  Login
+  <div class="bg-div container">
+    <div class="bg-primary">&nbsp;</div>
+  </div>
+  <header>
+    <div class="container mx-auto d-flex justify-content-between">
+      <div class="brand">
+        <img src=" ./images/logo.svg" alt="Logo">
+      </div>
+      <nav>
+        <div class="nav-toggler d-lg-none">
+          <a href="#"><img src="./images/icon-hamburger.svg" alt="Hamburger"></a>
+        </div>
+        <ul class="d-flex align-items-center justify-content-end d-none d-lg-flex">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li class="text-gray-blue font-size-2 bullet">&bull;</li>
+          <li><a class="text-gray-blue" href="#">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  New
-  Monograph Dashboard
+  <main class="hero-section">
+    <div class="container mx-auto d-flex flex-wrap justify-content-center">
+      <div class="left-side">
+        <h3><span class="pill">New</span> <span class="monograph text-gray-blue">Monograph dashboard</span></h3>
+        <h2 class="text-dark-blue">Powerful insights into your team</h2>
+        <p class="planning text-dark-gray-blue">Project planning and time tracking<br /> for agile teams</p>
+        <div class="demo d-flex flex-row align-items-center">
+          <button>Schedule a Demo</button>
+          <p class="text-uppercase text-gray-blue">to see a preview</p>
+        </div>
+      </div>
+      <div class="right-side">
+        &nbsp;
+        <img class="illustration" src="./images/illustration-devices.svg" alt="Illustration devices">
+      </div>
+    </div>
+  </main>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
 
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
+
+  <!-- <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://fasih-mehmood.web.app">Fasih Mehmood</a>.
     </p>
-  </footer>
+  </footer> -->
+  <script src="./script.js"></script>
 </body>
+
 </html>
