@@ -42,8 +42,6 @@
 body {
   font-size: 18px;
   font-family: 'Barlow', sans-serif;
-  max-width: 1440px;
-  margin-inline: auto;
   overflow-x: hidden;
 }
 
@@ -265,6 +263,7 @@ nav a:active {
   margin-right: 15px;
   white-space: nowrap;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -313,8 +312,8 @@ button:hover {
   }
 
   .bullet div {
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
   }
 
