@@ -1,4 +1,4 @@
-window.onload = (event) => {
+window.onload = () => {
   console.log('page is fully loaded');
   const toggler = document.querySelector('.nav-toggler');
   const nav = document.querySelector('nav ul');
@@ -18,6 +18,5 @@ window.onload = (event) => {
         nav.classList.toggle("opacity-1");
       }, 70)
     }
-    // nav.classList.toggle("opacity-1");
   })
 };
