@@ -45,7 +45,7 @@ body {
   overflow-x: hidden;
 }
 
-h2,
+h1,
 h3,
 a,
 button {
@@ -124,7 +124,7 @@ ul {
 /* Header */
 header .container {
   width: 80%;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -241,7 +241,7 @@ nav a:active {
   font-size: 1rem;
 }
 
-.left-side h2 {
+.left-side h1 {
   margin-top: 25px;
   font-size: 2.6rem;
   line-height: 45px;
@@ -291,7 +291,7 @@ button:hover {
   width: 1000px;
   height: 1000px;
   position: absolute;
-  transform: translate(50vw, calc(-100vh + 40vw));
+  transform: translate(50vw, calc(-87vh + 40vw));
   border-radius: 50px;
 }
 
@@ -369,7 +369,7 @@ button:hover {
   }
 
   .bg-div div {
-    transform: translate(50vw, -65vh);
+    transform: translate(50vw, -57.5vh);
   }
 
   .nav-toggler {
@@ -384,7 +384,7 @@ button:hover {
     font-size: 1.4rem;
   }
 
-  .left-side h2 {
+  .left-side h1 {
     margin-top: 30px;
     font-size: 4.3rem;
     line-height: 70px;
