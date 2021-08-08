@@ -159,6 +159,11 @@ nav ul li+li {
   padding-top: 25px;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+}
+
 .nav-toggler img {
   width: 30px;
 }
