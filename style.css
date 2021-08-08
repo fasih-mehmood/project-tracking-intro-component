@@ -136,22 +136,24 @@ nav {
 
 nav ul {
   min-height: 100%;
+  text-align: center;
   flex-direction: column;
   background: #fff;
+  width: 80vw;
   position: absolute;
   transition: opacity 0.4s;
   opacity: 0;
-  top: 25px;
-  right: 25px;
+  top: 70px;
+  right: 0;
   z-index: 99;
   padding: 15px;
-  border-radius: 15px;
-  box-shadow: 10px 10px 8px rgba(105, 105, 105, 0.26);
+  box-shadow: 0 0 15px rgba(105, 105, 105, 0.507);
 }
 
 nav ul li {
   /* height: 22px; */
-  width: 85px;
+  /* width: 85px; */
+  width: 100%;
 }
 
 nav ul li + li {
@@ -162,15 +164,22 @@ nav ul li + li {
   width: 30px;
 }
 
-.bullet {
-  margin-top: -20px;
+.bullet div {
   opacity: 50%;
-  display: none;
+  /* height: 10px; */
+  /* width: 10px; */
+  height: 2px;
+  width: 90%;
+  margin-inline: auto;
+  /* border-radius: 50%; */
+  /* display: none; */
+  background-color: var(--bs-gray-blue);
 }
 
 nav a {
   letter-spacing: 1px;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
+  /* font-size: 0.95rem; */
   font-weight: bold;
   text-decoration: none;
   color: var(--bs-dark-blue);
